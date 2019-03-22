@@ -1,3 +1,5 @@
+dist: trusty
+sudo: required
 language: cpp
 compiler: gcc
 
@@ -10,6 +12,8 @@ addons:
       - g++-7
 
 script:
+  - sudo ln -s /usr/bin/gcc-7 /usr/local/bin/gcc
+  - sudo ln -s /usr/bin/g++-7 /usr/local/bin/g++
   - export CC=gcc-7
   - export CXX=g++-7
   - cmake --version
