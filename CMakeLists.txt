@@ -3,4 +3,4 @@ project(ci_linked)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(ci_linked main.cpp)
+add_executable(ci_linked main.cpp Node.h)

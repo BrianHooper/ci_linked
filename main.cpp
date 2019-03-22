@@ -1,6 +1,11 @@
 #include <iostream>
+#include "Node.h"
+
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Node<int> node(115);
+    Node<int> second(27);
+    node.setNext(&second);
+    std::cout << node.getNext()->getValue() << std::endl;
     return 0;
 }
