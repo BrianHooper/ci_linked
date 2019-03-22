@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ci_linked.dir/main.cpp.o  -o ci_linked 

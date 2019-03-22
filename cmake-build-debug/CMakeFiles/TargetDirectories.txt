@@ -1,0 +1,3 @@
+/home/brian/Documents/code/c/ci_linked/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/brian/Documents/code/c/ci_linked/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/brian/Documents/code/c/ci_linked/cmake-build-debug/CMakeFiles/ci_linked.dir
